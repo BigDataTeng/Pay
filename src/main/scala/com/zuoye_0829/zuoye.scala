@@ -124,6 +124,7 @@ object zuoye {
           })
         lines1.foreachPartition(f => {
           val jedis = JedisConnectionPool.getConnection()
+          jedis.select(1)
           f.foreach(t => {
             jedis.hincrBy(t._1, "money", t._2(1).toLong)
           })
@@ -137,6 +138,7 @@ object zuoye {
         })
           .foreachPartition(f=>{
             val jedis = JedisConnectionPool.getConnection()
+            jedis.select(1)
             f.foreach(t=>{
 //              val month = t._1._2.sortBy(-_).toList
 //              val m = month(0)-month(month.length-1)+1
@@ -166,6 +168,7 @@ object zuoye {
         // 将偏移量进行更新
         val jedis = JedisConnectionPool.getConnection()
         for (or <- offestRange) {
+          jedis.select(1)
           jedis.hset(groupId, or.topic + "-" + or.partition, or.untilOffset.toString)
         }
         jedis.close()

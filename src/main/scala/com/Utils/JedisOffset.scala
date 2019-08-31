@@ -4,7 +4,6 @@ import java.util
 
 import org.apache.kafka.common.TopicPartition
 
-
 /**
   * 获取redis内部的Offset
   */
@@ -29,4 +28,3 @@ object JedisOffset {
     formdbOffset
   }
 }
-

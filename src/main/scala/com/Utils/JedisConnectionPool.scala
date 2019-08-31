@@ -3,9 +3,10 @@ package com.Utils
 import redis.clients.jedis.{Jedis, JedisPool, JedisPoolConfig}
 
 /**
-  * redis连接池
+  * 连接池
   */
 object JedisConnectionPool {
+
   val config = new JedisPoolConfig
 
   config.setMaxTotal(30)// 最大连接

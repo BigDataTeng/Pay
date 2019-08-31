@@ -1,19 +1,18 @@
 package com.Utils
 
-
-import org.apache.spark.SparkConf
-import org.apache.spark.streaming.{Seconds, StreamingContext}
 import java.lang
 
 import org.apache.kafka.clients.consumer.ConsumerRecord
 import org.apache.kafka.common.TopicPartition
 import org.apache.kafka.common.serialization.StringDeserializer
+import org.apache.spark.SparkConf
 import org.apache.spark.streaming.dstream.InputDStream
 import org.apache.spark.streaming.kafka010.{ConsumerStrategies, HasOffsetRanges, KafkaUtils, LocationStrategies}
-
+import org.apache.spark.streaming.{Seconds, StreamingContext}
 
 /**
-  * Redis管理Offset 
+  * Redis管理Offset
+  * 测试集群状态
   */
 object KafkaRedisOffset {
   def main(args: Array[String]): Unit = {
@@ -26,11 +25,11 @@ object KafkaRedisOffset {
     // 配置参数
     // 配置基本参数
     // 组名
-    val groupId = "zk002"
+    val groupId = "zk001"
     // topic
-    val topic = "hz1803b"
+    val topic = "bigdata"
     // 指定Kafka的broker地址（SparkStreaming程序消费过程中，需要和Kafka的分区对应）
-    val brokerList = "192.168.28.128:9092"
+    val brokerList = "192.168.239.132:9092"
     // 编写Kafka的配置参数
     val kafkas = Map[String,Object](
       "bootstrap.servers"->brokerList,

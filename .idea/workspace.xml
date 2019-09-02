@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee1833df-e6ec-45bb-a789-606dab6f4cd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Utils/JedisConnectionPool.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Utils/JedisConnectionPool.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/demo/App.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/zuoye_0829/zuoye.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/zuoye_0829/zuoye.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,32 +31,38 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Utils/JedisConnectionPool.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/Producter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/zuoye_0829/Producter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="456">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/zuoye_0829/zuoye.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3144">
-              <caret line="131" column="10" lean-forward="true" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
+            <state relative-caret-position="218">
+              <caret line="151" column="27" lean-forward="true" selection-start-line="151" selection-start-column="27" selection-end-line="151" selection-end-column="27" />
               <folding>
-                <element signature="e#24#40#0" expanded="true" />
+                <element signature="e#25#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/JedisAPP.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1392">
+              <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+              <folding>
+                <element signature="e#25#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,6 +122,10 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/main/JedisAPP.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/Utils/JedisConnectionPool.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/zuoye_0829/zuoye.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/IpSearch.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/JedisAPP.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/Producter.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/test.scala" />
       </list>
     </option>
   </component>
@@ -132,9 +141,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="525" />
-    <option name="width" value="1383" />
-    <option name="height" value="1011" />
+    <option name="x" value="-12" />
+    <option name="width" value="1125" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -152,11 +161,6 @@
             <path>
               <item name="Pay" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pay" type="462c0819:PsiDirectoryNode" />
-              <item name="dir" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pay" type="b2602c69:ProjectViewProjectNode" />
@@ -198,25 +202,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pay" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zuoye_0829" type="462c0819:PsiDirectoryNode" />
+              <item name="kaoshi_0831" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -238,19 +224,20 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Big-Data-22\项目二\Pay\src\main\scala\com\Utils\test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kaoshi_0831" />
+      <recent name="com.zuoye_0829" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Big-Data-22\项目二\Pay\dir" />
       <recent name="F:\Big-Data-22\项目二\Pay\src\main\scala\com\Utils" />
       <recent name="F:\Big-Data-22\项目二\Pay\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zuoye_0829" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Big-Data-22\项目二\Pay\src\main\scala\com\Utils\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,13 +252,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.zuoye">
+  <component name="RunManager" selected="Application.test">
     <configuration name="Producter (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zuoye_0829.Producter" />
       <module name="Pay" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zuoye_0829.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kaoshi_0831.Producter" />
+      <module name="Pay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaoshi_0831.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kaoshi_0831.test" />
+      <module name="Pay" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaoshi_0831.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,9 +308,13 @@
     <list>
       <item itemvalue="Application.Producter (1)" />
       <item itemvalue="Application.zuoye" />
+      <item itemvalue="Application.Producter" />
+      <item itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Producter" />
         <item itemvalue="Application.zuoye" />
         <item itemvalue="Application.Producter (1)" />
       </list>
@@ -321,7 +338,9 @@
       <workItem from="1567126251277" duration="11234000" />
       <workItem from="1567163939522" duration="10650000" />
       <workItem from="1567178628326" duration="5524000" />
-      <workItem from="1567212340704" duration="2974000" />
+      <workItem from="1567212340704" duration="4161000" />
+      <workItem from="1567221835136" duration="15902000" />
+      <workItem from="1567394581530" duration="604000" />
     </task>
     <task id="LOCAL-00001" summary="移动充值实时统计">
       <created>1567212695382</created>
@@ -330,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1567212695382</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="移动充值实时统计">
+      <created>1567220412101</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567220412101</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83841000" />
+    <option name="totallyTimeSpent" value="101534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,27 +373,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21907842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32517484" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32460734" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32867134" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.32984293" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" visible="true" weight="0.32867134" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32984293" />
-      <window_info anchor="bottom" id="Run" order="13" weight="0.28321677" />
+      <window_info anchor="bottom" id="Run" order="13" weight="0.44851658" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2488426" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -415,13 +440,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Utils/test/a.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Utils/test/JedisConnectionPool.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Utils/test/JedisOffset.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Utils/JedisOffset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Utils/test/KafkaRedisOffset.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Utils/KafkaRedisOffset.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -448,16 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/RechargeApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
-          <folding>
-            <element signature="e#18#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,16 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/JedisAPP.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1417">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="e#18#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dir/JsonTest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -539,33 +537,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/demo/App.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/demo/App.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/Utils/JedisConnectionPool.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        <state relative-caret-position="336">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/zuoye_0829/Producter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
+        <state relative-caret-position="360">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/zuoye_0829/zuoye.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3144">
-          <caret line="131" column="10" lean-forward="true" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
+        <state relative-caret-position="528">
+          <caret line="43" selection-start-line="43" selection-end-line="181" />
           <folding>
             <element signature="e#24#40#0" expanded="true" />
+            <element signature="e#1636#6710#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Utils/JedisOffset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/JedisAPP.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="85" selection-start-line="85" selection-end-line="109" />
+          <folding>
+            <element signature="e#18#74#0" expanded="true" />
+            <element signature="e#2585#3443#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/main/RechargeApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1112">
+          <caret line="80" column="4" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+          <folding>
+            <element signature="e#18#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/IpSearch.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/Producter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/JedisAPP.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/kaoshi_0831/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="151" column="27" lean-forward="true" selection-start-line="151" selection-start-column="27" selection-end-line="151" selection-end-column="27" />
+          <folding>
+            <element signature="e#25#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
